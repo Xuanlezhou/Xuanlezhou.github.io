@@ -15,7 +15,7 @@ export default function Home() {
       <div>
         <p>
           <span className="block text-xl">Hi, I’m</span>
-          <span className="block py-2 text-3xl font-medium">Yihan Shi!</span>
+          <span className="block py-2 text-3xl font-medium">Zhou Xuanle!</span>
           <span className="max-w-prose py-2">
             Based in Washington DC, I’m a software engineer by day, and
             photographer by night. Prior to joining Mastercard, I graduated from
