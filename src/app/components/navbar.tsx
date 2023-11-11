@@ -1,73 +1,28 @@
-"use client";
-
-import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { MdMenu, MdClose } from "react-icons/md";
-import { usePathname } from "next/navigation";
 
 export default function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
-  const pathname = usePathname();
 
   return (
-    <nav className="px-4 text-base">
-      <div>
-        <ol className="flex flex-row place-content-between items-center p-4">
-          <li>
-            <Link
-              onClick={() => {
-                setIsOpen(false);
-              }}
-              href="/"
-            >
-              <Image
-                src="/icons/yihan_shi.svg"
-                alt="Logo"
-                width={72}
-                height={48}
-              />
-            </Link>
-          </li>
-          <li>
-            <button
-              onClick={() => {
-                setIsOpen(!isOpen);
-              }}
-            >
-              {isOpen ? (
-                <MdClose className="h-6 w-6 transition hover:text-[#978d94]" />
-              ) : (
-                <MdMenu className="h-6 w-6 transition hover:text-[#978d94]" />
-              )}
-            </button>
-          </li>
-        </ol>
+    <main>
+      <div className="text-center mt-8 text-4xl">
+        ZHOU XUANLE
       </div>
-      <div className={`${isOpen ? "" : "hidden"} pb-2 pt-6`}>
-        <ol className="flex flex-col space-y-4">
-          {[
-            ["Home", "/"],
-            ["Experience", "/experience"],
-            ["Portfolio", "/portfolio"],
-            // ["Shop", "/shop"],
-          ].map(([title, url]) => (
-            <li className="text-center" key={title}>
-              <Link
-                onClick={() => {
-                  setIsOpen(false);
-                }}
-                className={`transition hover:text-[#978d94] ${
-                  pathname === url ? "font-semibold" : ""
-                }`}
-                href={url}
-              >
-                {title}
-              </Link>
-            </li>
-          ))}
-        </ol>
+      <div className="flex flex-row justify-center gap-x-4">
+        <div className="py-4"><Link href="/">About</Link></div>
+        <div className="peer py-4"><Link href="/projects">Projects</Link></div>
+        {/* Hover Menu */}
+        <div className="absolute hidden peer-hover:flex hover:flex flex-col bg-white mt-12 px-2 text-center gap-y-2 bg-[#fafaff]">
+          <a className="" href="#">Teleoperation Robotic Arm</a>
+          <a className="" href="#">Sugar Cane Juicer Machine</a>
+          <a className="" href="#">Pill-2-gO</a>
+          <a className="" href="#">Sunfryer</a>
+          <a className="" href="#">No CaCa Toilet Seat</a>
+          <a className="" href="#">Tensegrity Bridge</a>
+        </div>
+        <div className="py-4"><Link href="/contact">Contact</Link></div>
       </div>
-    </nav>
+    </main>
   );
 }

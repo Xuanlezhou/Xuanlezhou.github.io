@@ -157,6 +157,13 @@ export default function Profile() {
           <span className="text-sm">View full profile on Instagram</span>
         </Link>
       </div>
+      <div>
+
+
+
+
+        
+      </div>
     </div>
   );
 }

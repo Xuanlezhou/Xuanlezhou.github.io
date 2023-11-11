@@ -7,33 +7,43 @@ import {
 } from "react-icons/fa";
 import CalButton from "./components/cal-button";
 import Link from "next/link";
-import Profile from "./components/profile";
+import Navbar from "./components/navbar";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <main>
-      <div className="text-center mt-8 text-4xl">
-        ZHOU XUANLE
-      </div>
-      <div className="flex flex-row justify-center gap-x-4 my-4">
-        <div>About</div>
-        <div>Projects</div>
-        <div>Contact</div>
-      </div>
+      <Navbar />
       <div className="text-center my-8 text-3xl font-light text-[#54c5b3]">
         An Aspiring Product Design Engineer
       </div>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center">
         <Image
           className="rounded-full"
-          src="/icons/mastercard.jpg"
+          src="/photos/xuanle_profile.jpg"
           alt="Logo"
           width={200}
           height={200}
         />
       </div>
-
-    </main>
+      <div className="flex flex-col mt-5 items-center space-y-4">
+        <div className="max-w-3xl">
+          Hello! My name is Xuanle!
+        </div>
+        <div className="max-w-4xl">
+          I grew up in Singapore and I study Mechanical Engineering at Nanyang Technological University, Singapore.
+        </div>
+        <div className="text-justify max-w-3xl leading-loose pb-8">
+          I’ve been intrigued by how things work for as long as I can remember.
+          From repeatedly taking apart my Uniball Signo 0.38 pens to attempting
+          to mesh together a remote controlled aircraft with my brother, I developed
+          a passion for working with my hands at a young age. During my years studying
+          mechanical engineering at NTU, my desire to know how the world around me
+          works only deepened. I progressed from Google Sketch-Up to SolidWorks and
+          from Plasticine to 3D-printing. I have learned about different materials,
+          manufacturing processes and I want to learn more.
+        </div>
+      </div>
+    </main >
   );
 }
