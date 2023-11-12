@@ -5,10 +5,9 @@ import {
   FaRegEnvelope,
   FaRegFolderOpen,
 } from "react-icons/fa";
-import CalButton from "./components/cal-button";
-import Link from "next/link";
 import Navbar from "./components/navbar";
 import Image from "next/image";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
@@ -20,7 +19,7 @@ export default function Home() {
       <div className="flex justify-center">
         <Image
           className="rounded-full"
-          src="/photos/xuanle_profile.jpg"
+          src="/photos/profile.jpg"
           alt="Logo"
           width={200}
           height={200}
@@ -44,6 +43,7 @@ export default function Home() {
           manufacturing processes and I want to learn more.
         </div>
       </div>
+      <Footer />
     </main >
   );
 }
