@@ -4,7 +4,7 @@ export default function Navbar() {
 
   return (
     <main>
-      <div className="text-center uppercase mt-8 text-4xl">
+      <div className="text-center uppercase mt-12 text-4xl">
         Zhou Xuanle
       </div>
       <div className="flex flex-row justify-center gap-x-4">

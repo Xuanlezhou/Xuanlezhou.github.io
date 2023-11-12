@@ -12,9 +12,19 @@ export default function Contact() {
           <div className="text-center uppercase text-4xl">Get In Touch</div>
           <div className="text-center">I love answering questions!</div>
           <div className="leading-relaxed">
-            Email: <Link href="mailto:xuanlezhou@gmail.com">xuanlezhou@gmail.com</Link>
+            Email: <Link
+            target="_blank"
+            href="mailto:xuanlezhou@gmail.com"
+            rel="noopener noreferrer">
+              xuanlezhou@gmail.com
+              </Link>
             <br />
-            LinkedIn: <Link href="linkedin.com/in/xuanlezhou">linkedin.com/in/xuanlezhou</Link>
+            LinkedIn: <Link
+            target="_blank"
+            href="https://linkedin.com/in/xuanlezhou"
+            rel="noopener noreferrer">
+              linkedin.com/in/xuanlezhou
+              </Link>
           </div>
           <div className="leading-relaxed">
             <p>Phone:</p>
