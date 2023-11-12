@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Navbar() {
 
   return (
-    <main>
+    <div>
       <div className="text-center uppercase mt-12 text-4xl">
         Zhou Xuanle
       </div>
@@ -21,6 +21,6 @@ export default function Navbar() {
         </div>
         <div className="py-4"><Link href="/contact">Contact</Link></div>
       </div>
-    </main>
+    </div>
   );
 }

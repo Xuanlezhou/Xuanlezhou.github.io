@@ -5,7 +5,7 @@ import Footer from "../components/footer";
 
 export default function Contact() {
   return (
-    <main>
+    <div>
       <Navbar />
       <div className="flex flex-row justify-center mt-2 mb-12">
         <div className="flex flex-col relative aspect-square bg-blue-100 w-1/3 justify-center gap-y-10 px-10">
@@ -41,6 +41,6 @@ export default function Contact() {
         </div>
       </div>
       <Footer />
-    </main>
+    </div>
   );
 }

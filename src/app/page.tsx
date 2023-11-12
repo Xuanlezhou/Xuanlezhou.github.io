@@ -1,17 +1,10 @@
-import {
-  FaInstagram,
-  FaLinkedin,
-  FaGithub,
-  FaRegEnvelope,
-  FaRegFolderOpen,
-} from "react-icons/fa";
 import Navbar from "./components/navbar";
 import Image from "next/image";
 import Footer from "./components/footer";
 
 export default function Home() {
   return (
-    <main>
+    <div>
       <Navbar />
       <div className="text-center my-8 text-3xl font-light text-[#54c5b3]">
         An Aspiring Product Design Engineer
@@ -44,6 +37,6 @@ export default function Home() {
         </div>
       </div>
       <Footer />
-    </main >
+    </div>
   );
 }
