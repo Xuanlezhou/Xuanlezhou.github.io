@@ -3,7 +3,7 @@ import Navbar from "../../components/navbar";
 import Carousel from "@/app/components/carousel";
 import ProjectDetail from "@/app/components/project-detail";
 
-export default function RoboticArm() {
+export default function Juicer() {
   const title = "Tele-Operated Robotic Arm"
   const location = "Singapore"
   const dateRange = "May 2021 – Aug 2021"
