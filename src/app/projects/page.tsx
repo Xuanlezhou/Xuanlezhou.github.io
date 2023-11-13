@@ -26,22 +26,43 @@ export default function Projects() {
           number="01"
           title="Teleoperation Robotic Arm"
           description="A bluetooth Tele-operated 6 DOF Robotic arm involving 3 systems: Controller, Integration System, Output Arm."
-          imagePath="/photos/contact.jpg"
+          imagePath="/photos/projects_2.jpg"
           reversed={true}
         />
         <ProjectCard
-          number="01"
-          title="Teleoperation Robotic Arm"
-          description="A bluetooth Tele-operated 6 DOF Robotic arm involving 3 systems: Controller, Integration System, Output Arm."
-          imagePath="/photos/contact.jpg"
+          number="02"
+          title="Sugar Cane Machine"
+          description="A Sugar Cane Juicer Machine put together with belt, chain and gear systems."
+          imagePath="/photos/projects_3.jpg"
           reversed={false}
         />
         <ProjectCard
-          number="01"
-          title="Teleoperation Robotic Arm"
-          description="A bluetooth Tele-operated 6 DOF Robotic arm involving 3 systems: Controller, Integration System, Output Arm."
-          imagePath="/photos/contact.jpg"
+          number="03"
+          title="Pill-2-gO"
+          description="A product innovation designed to meet the novel post-pandemic needs of everyday water bottle users."
+          imagePath="/photos/projects_4.jpg"
           reversed={true}
+        />
+        <ProjectCard
+          number="04"
+          title="Sunfryer"
+          description="A fryer aimed to deliver convenience and sustainability by eliminating unnecessary kitchenware and oil usage."
+          imagePath="/photos/projects_5.jpg"
+          reversed={false}
+        />
+        <ProjectCard
+          number="05"
+          title="No CaCa Toilet Seat"
+          description="A toilet seat cover that encourages considerate and hygienic behaviors from the public."
+          imagePath="/photos/projects_6.jpg"
+          reversed={true}
+        />
+        <ProjectCard
+          number="06"
+          title="Tensegrity Bridge"
+          description="A bridge model constructed using the concept of tensegrity."
+          imagePath="/photos/projects_7.jpg"
+          reversed={false}
         />
       </div>
       <Footer />
