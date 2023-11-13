@@ -21,7 +21,7 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col divide-y border-y mx-48">
+      <div className="flex flex-col divide-y border-y mx-48 mb-12">
         <ProjectCard
           number="01"
           title="Teleoperation Robotic Arm"
