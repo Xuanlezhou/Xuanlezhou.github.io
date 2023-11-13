@@ -13,7 +13,7 @@ export default function Navbar() {
         {/* Hover Menu */}
         <div className="absolute hidden peer-hover:flex hover:flex flex-col bg-white mt-12 px-2 text-center gap-y-2 bg-[#fafaff] z-10">
           <a className="" href="/projects/robotic-arm">Teleoperation Robotic Arm</a>
-          <a className="" href="#">Sugar Cane Juicer Machine</a>
+          <a className="" href="/projects/juicer">Sugar Cane Juicer Machine</a>
           <a className="" href="#">Pill-2-gO</a>
           <a className="" href="#">Sunfryer</a>
           <a className="" href="#">No CaCa Toilet Seat</a>
