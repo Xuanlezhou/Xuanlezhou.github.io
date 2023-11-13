@@ -10,17 +10,17 @@ interface CardInfo {
 
 export default function ProjectCard({ number, title, description, imagePath, reversed = false }: CardInfo) {
   return (
-    <div className={`flex ${reversed ? "flex-row-reverse" : "flex-row"} justify-center mt-2 mb-12`}>
-      <div className="relative aspect-square w-1/3">
+    <div className={`flex ${reversed ? "flex-row-reverse" : "flex-row"} justify-center p-12`}>
+      <div className="relative w-128">
         <Image
           src={imagePath}
           alt="Logo"
           fill={true}
         />
       </div>
-      <div className="flex flex-col relative aspect-square bg-blue-100 w-1/3 justify-center gap-y-10 px-10">
-        <div className="uppercase text-4xl">{number}</div>
-        <div className="uppercase text-4xl">{title}</div>
+      <div className="flex flex-col relative w-128 justify-center gap-y-10">
+        <div className="text-4xl">{number}</div>
+        <div className="text-4xl">{title}</div>
         <div className="">{description}</div>
       </div>
     </div>

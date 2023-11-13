@@ -9,7 +9,7 @@ export default function Projects() {
       <Navbar />
       <div className="flex relative h-96 w-full justify-center">
         <Image
-          src="/photos/projects.jpg"
+          src="/photos/projects_1.jpg"
           alt="Logo"
           fill={true}
         />
@@ -21,7 +21,7 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <div>
+      <div className="flex flex-col divide-y border-y mx-48">
         <ProjectCard
           number="01"
           title="Teleoperation Robotic Arm"

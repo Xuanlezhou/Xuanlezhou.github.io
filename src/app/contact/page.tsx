@@ -8,7 +8,7 @@ export default function Contact() {
     <div>
       <Navbar />
       <div className="flex flex-row justify-center mt-2 mb-12">
-        <div className="flex flex-col relative aspect-square bg-blue-100 w-1/3 justify-center gap-y-10 px-10">
+        <div className="flex flex-col relative aspect-square bg-blue-100 w-128 justify-center gap-y-10 px-10">
           <div className="text-center uppercase text-4xl">Get In Touch</div>
           <div className="text-center">I love answering questions!</div>
           <div className="leading-relaxed">
@@ -32,7 +32,7 @@ export default function Contact() {
             <p>US: +1 408 329 8642</p>
           </div>
         </div>
-        <div className="relative aspect-square w-1/3">
+        <div className="relative aspect-square w-128">
           <Image
             src="/photos/contact.jpg"
             alt="Logo"
