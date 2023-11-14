@@ -8,7 +8,7 @@ export default function Pill() {
   const location = "Singapore"
   const dateRange = "Jan 2022 – May 2022"
   const content = "A Tele-Operated Robotic Arm with a 6DOF controller that allows the user to move freely within a space while detecting in real time, it’s exact position to control our 6 DOF robotic output arm. For the technically curious, 6 encoders in the controller will detect the movement by measuring the joint angles, which is then translated into a pose in 3D space using forward kinematics. Our integration system will then use inverse kinematics to calculate the joint angles for the 6 servomotors of the output robotic arm."
-  const supplement = "This project was completed under the 'Making and Tinkering' program in NTU where we received a funding of $2000 and emerged 1st amongst 24 other groups."
+  const supplement = "This project was completed under a module called \"Engineering Innovation and Design (EID) Program\" in NTU aimed at helping students experience some of the practical learning in preparation for an engineering or technopreneur career. We received a funding of $200 and were awarded an A."
   return (
     <div>
       <Navbar />
