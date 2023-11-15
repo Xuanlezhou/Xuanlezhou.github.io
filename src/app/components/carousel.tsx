@@ -9,18 +9,14 @@ import {
   RxChevronRight,
 } from "react-icons/rx";
 
-export default function Carousel() {
-  const slides = [
-    {
-      url: "https://mcdn.wallpapersafari.com/medium/98/30/BeTDXk.jpg",
-    },
-    {
-      url: "https://mcdn.wallpapersafari.com/medium/3/37/mQbCrx.jpg",
-    },
-    {
-      url: "https://mcdn.wallpapersafari.com/medium/72/9/VXA8uZ.jpg",
-    },
-  ];
+interface Slide {
+  url: string;
+}
+
+interface Slides extends Array<Slide> { }
+
+export default function Carousel({ slides }: { slides: Slides }) {
+
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
