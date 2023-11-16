@@ -10,7 +10,7 @@ export default function TensegrityBridge() {
   const content = "A Tele-Operated Robotic Arm with a 6DOF controller that allows the user to move freely within a space while detecting in real time, it’s exact position to control our 6 DOF robotic output arm. For the technically curious, 6 encoders in the controller will detect the movement by measuring the joint angles, which is then translated into a pose in 3D space using forward kinematics. Our integration system will then use inverse kinematics to calculate the joint angles for the 6 servomotors of the output robotic arm."
   const slides = [
     {
-      url: "https://mcdn.wallpapersafari.com/medium/98/30/BeTDXk.jpg",
+      url: "https://mcdn.wallpapersafari.com/medium/92/8/zWBOqo.jpg",
     },
     {
       url: "https://mcdn.wallpapersafari.com/medium/3/37/mQbCrx.jpg",

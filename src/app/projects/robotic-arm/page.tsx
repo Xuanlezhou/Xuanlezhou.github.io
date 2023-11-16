@@ -11,7 +11,7 @@ export default function RoboticArm() {
   const supplement = "This project was completed under the 'Making and Tinkering' program in NTU where we received a funding of $2000 and emerged 1st amongst 24 other groups."
   const slides = [
     {
-      url: "https://mcdn.wallpapersafari.com/medium/98/30/BeTDXk.jpg",
+      url: "https://mcdn.wallpapersafari.com/medium/3/26/LTB79i.jpg",
     },
     {
       url: "https://mcdn.wallpapersafari.com/medium/3/37/mQbCrx.jpg",

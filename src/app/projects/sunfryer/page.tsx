@@ -11,7 +11,7 @@ export default function Sunfryer() {
   const supplement = "This design was submitted under BESCO’s closed-door Cookware Innovation Competition 'seeking innovative ideas among creative students' for potential products."
   const slides = [
     {
-      url: "https://mcdn.wallpapersafari.com/medium/98/30/BeTDXk.jpg",
+      url: "https://mcdn.wallpapersafari.com/medium/96/31/4aQxY7.jpg",
     },
     {
       url: "https://mcdn.wallpapersafari.com/medium/3/37/mQbCrx.jpg",

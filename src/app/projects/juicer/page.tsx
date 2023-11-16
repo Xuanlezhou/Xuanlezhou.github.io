@@ -11,7 +11,7 @@ export default function Juicer() {
   const supplement = "This project was completed as part of the \"Machine Element Design\" module in NTU where students are required to come up with a design for Sugar Cane machines from scratch."
   const slides = [
     {
-      url: "https://mcdn.wallpapersafari.com/medium/98/30/BeTDXk.jpg",
+      url: "https://mcdn.wallpapersafari.com/medium/55/71/MOChuV.jpg",
     },
     {
       url: "https://mcdn.wallpapersafari.com/medium/3/37/mQbCrx.jpg",

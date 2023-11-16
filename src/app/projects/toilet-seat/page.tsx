@@ -11,7 +11,7 @@ export default function ToiletSeat() {
   const supplement = "This design was submitted as part of a competition called ILOOMINATION for tertiary students, organised and run by NEA, to promote safe sanitation and hygiene in public toilets. Our team were in the Top 10 finalists after competing with 50+ teams and were awarded a consolation prize of $300."
   const slides = [
     {
-      url: "https://mcdn.wallpapersafari.com/medium/98/30/BeTDXk.jpg",
+      url: "https://mcdn.wallpapersafari.com/medium/94/76/PnNABk.jpg",
     },
     {
       url: "https://mcdn.wallpapersafari.com/medium/3/37/mQbCrx.jpg",
