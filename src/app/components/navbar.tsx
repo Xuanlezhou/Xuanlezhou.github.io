@@ -13,11 +13,17 @@ export default function Navbar() {
         {/* Hover Menu */}
         <div className="absolute hidden peer-hover:flex hover:flex flex-col bg-white mt-12 px-2 text-center gap-y-2 bg-[#fafaff] z-10">
           <a className="" href="/projects/robotic-arm">Teleoperation Robotic Arm</a>
+          <a className="" href="/projects/shell-eco-marathon">Shell Eco-Marathon</a>
+          <a className="" href="/projects/heart-valve">Heart Valve</a>
           <a className="" href="/projects/juicer">Sugar Cane Juicer Machine</a>
+          <a className="" href="/projects/charging-evs">Charging EVs</a>
           <a className="" href="/projects/pill">Pill-2-gO</a>
+          <a className="" href="/projects/tiara">Tiara</a>
           <a className="" href="/projects/sunfryer">Sunfryer</a>
           <a className="" href="/projects/toilet-seat">No CaCa Toilet Seat</a>
           <a className="" href="/projects/tensegrity-bridge">Tensegrity Bridge</a>
+
+
         </div>
         <div className="py-4"><Link href="/contact">Contact</Link></div>
       </div>

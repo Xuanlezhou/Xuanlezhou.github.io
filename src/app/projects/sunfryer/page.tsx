@@ -7,7 +7,13 @@ export default function Sunfryer() {
   const title = "Sunfryer"
   const location = "Berkeley, CA"
   const dateRange = "Jun 2022 – July 2022"
-  const content = "A Tele-Operated Robotic Arm with a 6DOF controller that allows the user to move freely within a space while detecting in real time, it’s exact position to control our 6 DOF robotic output arm. For the technically curious, 6 encoders in the controller will detect the movement by measuring the joint angles, which is then translated into a pose in 3D space using forward kinematics. Our integration system will then use inverse kinematics to calculate the joint angles for the 6 servomotors of the output robotic arm."
+  const content = (<span>
+    This cookware was designed for a more convenient small-household frying usage by eliminating the use of racks and serviettes, and supports sustainability by reducing oil usage and wastage. 
+    <br /><br />
+    Including a round platform around the pan serves as a draining system allowing excess oil to flow back into the pan and maximizes the amount of food items that can be placed on it. Reduction of the pot’s base allows it to be functional for most household frying usage whilst reducing the amount of oil required as less oil is needed to cover the fried food items completely.
+
+  </span>)
+    //"This cookware was designed for a more convenient small-household frying usage by eliminating the use of racks and serviettes, and supports sustainability by reducing oil usage and wastage." <br/> "hu"
   const supplement = "This design was submitted under BESCO’s closed-door Cookware Innovation Competition 'seeking innovative ideas among creative students' for potential products."
   const slides = [
     {

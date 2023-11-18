@@ -7,7 +7,14 @@ export default function TensegrityBridge() {
   const title = "Tensegrity Bridge"
   const location = "Singapore"
   const dateRange = "May 2021 – Jul 2021"
-  const content = "A Tele-Operated Robotic Arm with a 6DOF controller that allows the user to move freely within a space while detecting in real time, it’s exact position to control our 6 DOF robotic output arm. For the technically curious, 6 encoders in the controller will detect the movement by measuring the joint angles, which is then translated into a pose in 3D space using forward kinematics. Our integration system will then use inverse kinematics to calculate the joint angles for the 6 servomotors of the output robotic arm."
+  const content = (
+    <span>
+      Our Tensegrity Bridge model was built as part of NTU's engineering outreach program for pre-tertiary students.
+
+      <br /> <br />
+      This modular design allows students to take on a practical approach towards understanding concepts outside of the classroom. By turning the knobs along the screw threads at the end of each rod, users are able to see for themselves how the structure is held by the tensions that interact and change with each turn of the knob. 
+    </span>
+  )
   const slides = [
     {
       url: "https://mcdn.wallpapersafari.com/medium/92/8/zWBOqo.jpg",

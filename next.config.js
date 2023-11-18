@@ -6,9 +6,13 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "mcdn.wallpapersafari.com",
+        hostname: "drive.google.com",
         port: "",
         pathname: "/**",
+      },
+      {
+        protocol: 'https',
+        hostname: 'youtube.com', // For YouTube videos
       },
     ],
   },

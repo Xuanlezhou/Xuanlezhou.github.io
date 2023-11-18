@@ -8,20 +8,23 @@ interface DetailInfo {
 
 export default function ProjectDetail({ title, location, dateRange, content, supplement = "" }: DetailInfo) {
   return (
-    <div className="flex flex-col justify-center mx-48 my-12">
+    <div className="flex flex-col justify-center mx-20 my-12">
       <div className="text-2xl">
         {title}
       </div>
       <div className="font-semibold">
         {location}
       </div>
-      <div className="italic">
+      <div className="italic mt-1 ">
         {dateRange}
       </div>
-      <div>
+      <div className="font-semibold">
+      ______
+      </div>
+      <div className="flex flex-col justify-center mx-20 mt-8" >
         {content}
       </div>
-      <div className="italic">
+      <div className="flex flex-col justify-center mx-20 italic mt-5 text-sm">
         {supplement}
       </div>
     </div>
