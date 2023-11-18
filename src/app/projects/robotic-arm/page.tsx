@@ -20,8 +20,28 @@ export default function RoboticArm() {
   const supplement = "This project was completed under the 'Making and Tinkering' program in NTU where we received a funding of $2000 and emerged 1st amongst 24 other groups."
   const slides: Slides = [
     {
-      url: "https://drive.google.com/file/d/18EvkSTOxUs-1uwS2JqvDUqiMOzp3E-P-/preview",
+      url: "https://drive.google.com/uc?export=view&id=1fdZZFt2Mly2DHYcdup-iMHhhjBPZ0x2r",
+      type: "image",
+    },
+    {
+      url: "https://drive.google.com/file/d/1AGC4JYHh6ElKwwQWimxT41NOy1Y6Kftk/preview",
       type: "iframe",
+    },
+    {
+      url: "https://drive.google.com/uc?export=view&id=1s94MLyhWDammb2GCOiIs6WNgu4re0CwP",
+      type: "image",
+    },
+    {
+      url: "https://drive.google.com/uc?export=view&id=1d6fJJKi-dgdAn-eAmRdc2L9vDE2LWWjB",
+      type: "image",
+    },
+    {
+      url: "https://drive.google.com/uc?export=view&id=17i793HJDlcj0Wr4ogWzFOr-4PiGe3c3e",
+      type: "image",
+    },
+    {
+      url: "https://drive.google.com/uc?export=view&id=1j3eMCVKNfQL6juKiatlINLZhDi-k5VcD",
+      type: "image",
     },
   ];
   return (

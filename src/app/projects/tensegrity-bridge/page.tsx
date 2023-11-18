@@ -22,15 +22,19 @@ export default function TensegrityBridge() {
   )
   const slides: Slides = [
     {
-      url: "https://mcdn.wallpapersafari.com/medium/92/8/zWBOqo.jpg",
+      url: "https://drive.google.com/uc?export=view&id=1PKdTRfHu-QGTTopvLjme29I6clnQdE-K",
       type: "image",
     },
     {
-      url: "https://mcdn.wallpapersafari.com/medium/3/37/mQbCrx.jpg",
+      url: "https://drive.google.com/file/d/1dN9vNC5aM9rboNrqX3R2-ANyhE-lOYuQ/preview",
+      type: "iframe",
+    },
+    {
+      url: "https://drive.google.com/uc?export=view&id=18y7EbNxtaWuflt0hCH13kFX0wLvDRrS0",
       type: "image",
     },
     {
-      url: "https://mcdn.wallpapersafari.com/medium/72/9/VXA8uZ.jpg",
+      url: "https://drive.google.com/uc?export=view&id=1LW7fGkM-nhNuYSc0SNdBK7ArHmmHV1x3",
       type: "image",
     },
   ];

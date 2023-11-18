@@ -24,15 +24,19 @@ export default function Sunfryer() {
   const supplement = "This design was submitted under BESCO’s closed-door Cookware Innovation Competition 'seeking innovative ideas among creative students' for potential products."
   const slides: Slides = [
     {
-      url: "https://mcdn.wallpapersafari.com/medium/96/31/4aQxY7.jpg",
+      url: "https://drive.google.com/uc?export=view&id=1mgIDAVcPAuMXOUuvlrf5_KNq5knxPx0x",
       type: "image",
     },
     {
-      url: "https://mcdn.wallpapersafari.com/medium/3/37/mQbCrx.jpg",
+      url: "https://drive.google.com/file/d/1VKL8HnLaXOlMH2OlVVicHDJW9x-5Bp4X/preview",
+      type: "iframe",
+    },
+    {
+      url: "https://drive.google.com/uc?export=view&id=1Mru3B4KsKmeMNwtWlHtPi5e9CMKmYiLa",
       type: "image",
     },
     {
-      url: "https://mcdn.wallpapersafari.com/medium/72/9/VXA8uZ.jpg",
+      url: "https://drive.google.com/uc?export=view&id=1Y5B7GiitPubYRKszXGa-NgJCvCpmgQES",
       type: "image",
     },
   ];

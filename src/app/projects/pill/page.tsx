@@ -23,17 +23,38 @@ export default function Pill() {
   const supplement = "This project was completed under a module called \"Engineering Innovation and Design (EID) Program\" in NTU aimed at helping students experience some of the practical learning in preparation for an engineering or technopreneur career. We received a funding of $200 and were awarded an A."
   const slides: Slides = [
     {
-      url: "https://mcdn.wallpapersafari.com/medium/62/95/IO7b4q.jpg",
+      url: "https://drive.google.com/uc?export=view&id=1XsiND42EaqQLLIZtUqk4Bd7pWfYiGCdJ",
       type: "image",
     },
     {
-      url: "https://mcdn.wallpapersafari.com/medium/3/37/mQbCrx.jpg",
+      url: "https://drive.google.com/file/d/1L4gVXpamMHXQGLce9fAVip8lAIs4R91_/preview",
+      type: "iframe",
+    },
+    {
+      url: "https://drive.google.com/uc?export=view&id=1ACHv7RmqqL6hgT3mSYmnc24WbYMnNhAO",
       type: "image",
     },
     {
-      url: "https://mcdn.wallpapersafari.com/medium/72/9/VXA8uZ.jpg",
+      url: "https://drive.google.com/file/d/1nPpnGjtX2eFdpo57COz_w0-XTNrqLRjK/preview",
+      type: "iframe",
+    },
+    {
+      url: "https://drive.google.com/file/d/1A9bAKDOr8x6GUYG7Phg937gK2grnx6XW/preview",
+      type: "iframe",
+    },
+    {
+      url: "https://drive.google.com/file/d/1ERGzOnnoBbOEH3uT1UwhcQ7bFWuJgsnF/preview",
+      type: "iframe",
+    },
+    {
+      url: "https://drive.google.com/uc?export=view&id=1TZDJiyL5Q0hV8duOWf_9O9ovoPpElRFb",
       type: "image",
     },
+    // {
+      // url: "https://drive.google.com/uc?export=view&id=1d6-gKfw0xBpa1U4LDBvmGoRXQh8sQS12",
+      // type: "image",
+    // },
+    
   ];
   return (
     <div>

@@ -26,17 +26,22 @@ export default function ToiletSeat() {
   const supplement = "This design was submitted as part of a competition called ILOOMINATION for tertiary students, organised and run by NEA, to promote safe sanitation and hygiene in public toilets. Our team were in the Top 10 finalists after competing with 50+ teams and were awarded a consolation prize of $300."
   const slides: Slides = [
     {
-      url: "https://mcdn.wallpapersafari.com/medium/94/76/PnNABk.jpg",
+      url: "https://drive.google.com/uc?export=view&id=1dF-9EOyW-Fca6NiM-cabx5wgjhJGblM5",
       type: "image",
     },
     {
-      url: "https://mcdn.wallpapersafari.com/medium/3/37/mQbCrx.jpg",
+      url: "https://drive.google.com/file/d/1LjFsSH4g7rntJvY20o7bQFJyKOEhdAa2/preview",
+      type: "iframe",
+    },
+    {
+      url: "https://drive.google.com/uc?export=view&id=1cU_D3-IdBQB3UtK46ttBJNM5L-JVJ6iv",
       type: "image",
     },
     {
-      url: "https://mcdn.wallpapersafari.com/medium/72/9/VXA8uZ.jpg",
+      url: "https://drive.google.com/uc?export=view&id=1aNu6hbz6ilabrbMQRRkgvXpXTl3RNdLk",
       type: "image",
     },
+    
   ];
   return (
     <div>
