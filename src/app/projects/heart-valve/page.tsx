@@ -3,14 +3,13 @@ import Navbar from "../../components/navbar";
 import Carousel from "@/app/components/carousel";
 import ProjectDetail from "@/app/components/project-detail";
 
-export default function ToiletSeat() {
-  const title = "No CaCa Toilet Seat"
+export default function HeartValve() {
+  const title = "3D Heart Valve"
   const location = "Singapore"
-  const dateRange = "May 2021 – June 2021"
+  const dateRange = "May 2022 – June 2023"
   const content = (
     <span>
-      After a careful analysis of societal behaviors, system design, and useful input from maintenance personnel, we determined several root causes of issues in maintaining cleanliness in mixed gender public toilets. They are mainly due to people who preferred to stand or are unwilling to lift the seats when using the toilet.
-
+      hey
       <br /> <br />
 
       To encourage the proper usage of toilets in handicapped toilets by members of the public, we introduced a tab at the side of the toilet seat, encouraging male users to lift the toilet seat before using it. We also reduced the thickness in appropriate areas along the circumference, to deter members from stepping on the toilet seat covers. 

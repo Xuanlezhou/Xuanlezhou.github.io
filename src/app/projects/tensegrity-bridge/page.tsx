@@ -9,7 +9,7 @@ export default function TensegrityBridge() {
   const dateRange = "May 2021 – Jul 2021"
   const content = (
     <span>
-      Our Tensegrity Bridge model was built as part of NTU's engineering outreach program for pre-tertiary students.
+      Our Tensegrity Bridge model was built as part of NTU’s engineering outreach program for pre-tertiary students.
 
       <br /> <br />
       This modular design allows students to take on a practical approach towards understanding concepts outside of the classroom. By turning the knobs along the screw threads at the end of each rod, users are able to see for themselves how the structure is held by the tensions that interact and change with each turn of the knob. 
