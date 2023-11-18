@@ -19,15 +19,31 @@ export default function Juicer() {
   const supplement = "This project was completed as part of the \"Machine Element Design\" module in NTU where students are required to come up with a design for Sugar Cane machines from scratch."
   const slides: Slides = [
     {
-      url: "https://mcdn.wallpapersafari.com/medium/55/71/MOChuV.jpg",
+      url: "https://drive.google.com/uc?export=view&id=1VPusvleAeAfUH2MAm_JgBTEN7Pbk-XC9",
       type: "image",
     },
     {
-      url: "https://mcdn.wallpapersafari.com/medium/3/37/mQbCrx.jpg",
+      url: "https://drive.google.com/file/d/1Gd_65fhleBInkkBZOrfssEvF2h-AR21D/preview",
+      type: "iframe",
+    },
+    {
+      url: "https://drive.google.com/uc?export=view&id=1J30hN-52oYTYL1Gu3XtFK8a48exShM47",
       type: "image",
     },
     {
-      url: "https://mcdn.wallpapersafari.com/medium/72/9/VXA8uZ.jpg",
+      url: "https://drive.google.com/uc?export=view&id=1dSSYaB8wAFjSdLYK5H-oLzFEt3kuAgV1",
+      type: "image",
+    },
+    {
+      url: "https://drive.google.com/uc?export=view&id=1-ME3KI9g9UYz6WrsgupvezFwMfLe_HWq",
+      type: "image",
+    },
+    {
+      url: "https://drive.google.com/uc?export=view&id=1eVv0IUWH2MVX2ktrwFla9SZF4CSPeIqi",
+      type: "image",
+    },
+    {
+      url: "https://drive.google.com/uc?export=view&id=1TsHF2Q_fTT0KTRsWoBApd3KUzJbtd0Wg",
       type: "image",
     },
   ];
