@@ -10,11 +10,11 @@ import {
 } from "react-icons/rx";
 
 interface Slide {
-  type: 'image' | 'iframe';
   url: string;
+  type: "image" | "iframe";
 }
 
-interface Slides extends Array<Slide> { }
+export interface Slides extends Array<Slide> { }
 
 export default function Carousel({ slides }: { slides: Slides }) {
 
@@ -39,7 +39,7 @@ export default function Carousel({ slides }: { slides: Slides }) {
 
   return (
     <div className="group relative h-fit w-fit pt-6">
-       {slides[currentIndex].type === 'image' ? (
+      {slides[currentIndex].type === "image" ? (
         <Image
           src={slides[currentIndex].url}
           alt="Photo"
@@ -52,7 +52,8 @@ export default function Carousel({ slides }: { slides: Slides }) {
           src={slides[currentIndex].url}
           allowFullScreen
           className="w-full h-full rounded-2xl"
-          style={{ width: '1024px', height: '576px' }} // Adjust width and height as needed
+          style={{ width: '1024px', height: '576px' }}
+          allow="autoplay"
         ></iframe>
       )}
       <div className="absolute left-5 top-[50%] hidden translate-y-[-50%] cursor-pointer rounded-full bg-black/20 p-2 text-2xl text-white group-hover:block">

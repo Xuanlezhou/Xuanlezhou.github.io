@@ -2,7 +2,7 @@ interface DetailInfo {
   title: string;
   location: string;
   dateRange: string;
-  content: string;
+  content: JSX.Element;
   supplement?: string;
 }
 

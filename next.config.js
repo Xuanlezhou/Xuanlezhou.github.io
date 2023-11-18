@@ -12,7 +12,9 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'youtube.com', // For YouTube videos
+        hostname: 'mcdn.wallpapersafari.com',
+        port: "",
+        pathname: "/**",
       },
     ],
   },
