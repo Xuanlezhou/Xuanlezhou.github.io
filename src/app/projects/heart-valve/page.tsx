@@ -14,12 +14,12 @@ export default function HeartValve() {
 
 
       <br /> <br / >
-      This heart valve project builds on Duran et al. (2002)'s work,
+      This heart valve project builds on Duran et al. (2002)’s work,
       and proposes a novel approach to reconstruct the valve from a 2D template.
       This process potentially eliminates the need for molds, leading to significant savings in both time and costs.
     </span>
   )
-  const supplement = "This research project was conducted under the selective Undergraduate Research Programme at NTU, in collaboration with pediatric cardiac surgeons from the KK Women's and Children's Hospital in Singapore."
+  const supplement = "This research project was conducted under the selective Undergraduate Research Programme at NTU, in collaboration with pediatric cardiac surgeons from the KK Women’s and Children’s Hospital in Singapore."
   const slides: Slides = [
     {
       url: "https://drive.google.com/uc?export=view&id=1XMJY8O8fkSkFbNKTPP__r9taYH_e367o",
