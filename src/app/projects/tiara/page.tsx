@@ -40,7 +40,8 @@ export default function Tiara() {
     {
       url: "https://drive.google.com/uc?export=view&id=1uYMbvtiepuuQq4NWMp1w_d5Gz6xf4sq0",
       type: "image",
-
+    },
+    {
       url: "https://drive.google.com/uc?export=view&id=1P5MqX9MQchDZEL0u-s9aIDxo36QrFH9v",
       type: "image",
     },

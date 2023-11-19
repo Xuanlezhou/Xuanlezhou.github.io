@@ -4,7 +4,7 @@ import Carousel, { Slides } from "@/app/components/carousel";
 import ProjectDetail from "@/app/components/project-detail";
 
 export default function ChargingEVs() {
-  const title = "No CaCa Toilet Seat"
+  const title = "Chargingevs"
   const location = "Singapore"
   const dateRange = "May 2021 – June 2021"
   const content = (
