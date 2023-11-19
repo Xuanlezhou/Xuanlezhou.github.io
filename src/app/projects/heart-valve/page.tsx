@@ -6,30 +6,37 @@ import ProjectDetail from "../../components/project-detail";
 export default function HeartValve() {
   const title = "3D Heart Valve"
   const location = "Singapore"
-  const dateRange = "May 2022 – June 2023"
+  const dateRange = "Aug 2022 – June 2023"
   const content = (
     <span>
-      To encourage the proper usage of toilets in handicapped toilets by members
-      of the public, we introduced a tab at the side of the toilet seat, encouraging
-      male users to lift the toilet seat before using it. We also reduced the thickness
-      in appropriate areas along the circumference, to deter members from stepping on the
-      toilet seat covers.
+      Annually, approximately 100 babies are born with congenital heart defects. 
+      As the population ages, about 1 in 20 individuals develops heart disease, often necessitating valve replacement surgery. 
+
+
+      <br /> <br / >
+      This heart valve project builds on Duran et al. (2002)'s work,
+      and proposes a novel approach to reconstruct the valve from a 2D template.
+      This process potentially eliminates the need for molds, leading to significant savings in both time and costs.
     </span>
   )
-  const supplement = "This design was submitted as part of a competition called ILOOMINATION for tertiary students, organised and run by NEA, to promote safe sanitation and hygiene in public toilets. Our team were in the Top 10 finalists after competing with 50+ teams and were awarded a consolation prize of $300."
+  const supplement = "This research project was conducted under the selective Undergraduate Research Programme at NTU, in collaboration with pediatric cardiac surgeons from the KK Women's and Children's Hospital in Singapore."
   const slides: Slides = [
     {
-      url: "https://mcdn.wallpapersafari.com/medium/94/76/PnNABk.jpg",
+      url: "https://drive.google.com/uc?export=view&id=1XMJY8O8fkSkFbNKTPP__r9taYH_e367o",
       type: "image",
     },
     {
-      url: "https://mcdn.wallpapersafari.com/medium/3/37/mQbCrx.jpg",
+      url: "https://drive.google.com/file/d/125PCZgJqYDhQEfNJxyo79kWmA89t73Jt/preview",
+      type: "iframe",
+    },
+    {
+      url: "https://drive.google.com/uc?export=view&id=1YFHf-SwpG2IIDbSEhKVz-XZXzh-zww7m",
       type: "image",
     },
     {
-      url: "https://mcdn.wallpapersafari.com/medium/72/9/VXA8uZ.jpg",
+      url: "https://drive.google.com/uc?export=view&id=1AcC4hWrdG3jpAoSzmK9oWz-eHs9TIX_X",
       type: "image",
-    },
+    }
   ];
   return (
     <div>

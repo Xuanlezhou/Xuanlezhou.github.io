@@ -26,18 +26,29 @@ export default function Tiara() {
   const supplement = "An amusing endeavor, embarked upon solely for the joy of pretending to be a princess."
   const slides: Slides = [
     {
-      url: "https://mcdn.wallpapersafari.com/medium/94/76/PnNABk.jpg",
+      url: "https://drive.google.com/uc?export=view&id=1vKpqK2SbF57uHmDedAGnKfEVyGo3wtpY",
       type: "image",
     },
     {
-      url: "https://mcdn.wallpapersafari.com/medium/3/37/mQbCrx.jpg",
+      url: "https://drive.google.com/file/d/1u1-XGF8m87Zf1B09_-ICPvUCc9JoZtYd/preview",
+      type: "iframe",
+    },
+    {
+      url: "https://drive.google.com/uc?export=view&id=17npm6k45SQrvOTDTFqxYy5vqVYGGpP88",
       type: "image",
     },
     {
-      url: "https://mcdn.wallpapersafari.com/medium/72/9/VXA8uZ.jpg",
+      url: "https://drive.google.com/uc?export=view&id=1uYMbvtiepuuQq4NWMp1w_d5Gz6xf4sq0",
+      type: "image",
+
+      url: "https://drive.google.com/uc?export=view&id=1P5MqX9MQchDZEL0u-s9aIDxo36QrFH9v",
       type: "image",
     },
-  ];
+    {
+      url: "https://drive.google.com/file/d/1zzLVtLFKzETKwY6opbRnOL3F2aeAGYAC/preview",
+      type: "iframe",
+    },
+    ];
   return (
     <div>
       <Navbar />
