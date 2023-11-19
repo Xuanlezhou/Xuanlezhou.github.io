@@ -10,12 +10,6 @@ const nextConfig = {
         port: "",
         pathname: "/**",
       },
-      {
-        protocol: 'https',
-        hostname: 'mcdn.wallpapersafari.com',
-        port: "",
-        pathname: "/**",
-      },
     ],
   },
 };
