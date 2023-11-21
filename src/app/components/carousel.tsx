@@ -52,7 +52,7 @@ export default function Carousel({ slides }: { slides: Slides }) {
           src={slides[currentIndex].url}
           allowFullScreen
           className="w-full h-full rounded-2xl"
-          style={{ width: '1024px', height: '576px' }}
+          style={{ width: "1024px", height: "512px" }}
           allow="autoplay"
         ></iframe>
       )}

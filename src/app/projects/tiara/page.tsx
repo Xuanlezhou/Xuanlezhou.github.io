@@ -53,10 +53,8 @@ export default function Tiara() {
   return (
     <div>
       <Navbar />
-      <div className="flex justify-center">
+      <div className="flex flex-col items-center justify-center">
         <Carousel slides={slides} />
-      </div>
-      <div className="flex justify-center">
         <ProjectDetail title={title} location={location} dateRange={dateRange} content={content} supplement={supplement} />
       </div>
       <Footer />
